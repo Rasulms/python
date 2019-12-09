@@ -1,0 +1,10 @@
+lis=[3,8,1,4,9,5]
+n=len(lis)
+a=int(n/2)
+test1=lis[0:a]
+test2=lis[a:]
+test1.sort()
+test2.sort()
+lst=test1+test2
+lst.sort()
+print(lst)
